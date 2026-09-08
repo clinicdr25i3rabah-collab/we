@@ -9,7 +9,10 @@ jobs:
         run: |
           git clone --recursive https://github.com/bartoszj/acextract.git
           cd acextract
-          xcodebuild -project acextract.xcodeproj -scheme acextract -configuration Release CONFIGURATION_BUILD_DIR=build
+          sed -i '' '1i\
+#import <CoreGraphics/CoreGraphics.h>
+' acextract/CoreUI.h
+          xcodebuild -project acextract.xcodeproj -scheme acextract -configuration Release CONFIGURATION_BUILD_DIR=build MACOSX_DEPLOYMENT_TARGET=12.0
       - name: Extract images
         run: |
           mkdir output
