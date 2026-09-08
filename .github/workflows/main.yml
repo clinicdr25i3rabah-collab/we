@@ -8,32 +8,30 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Check if file exists
+      - name: Check file
         run: |
           if [ ! -f "Assets.car" ]; then
-            echo "خطأ: لم يتم العثور على ملف Assets.car في جذر المستودع!"
+            echo "File Assets.car not found!"
             exit 1
           fi
 
-      - name: Install Extraction Tool
+      - name: Install Tool
         run: |
-          # تحميل أداة مخصصة لاستخراج الصور الفعلية وتنصيبها في السيرفر
           git clone https://github.com
           cd carutil
           cargo build --release
           echo "$(pwd)/target/release" >> $GITHUB_PATH
 
-      - name: Extract Images
+      - name: Extract
         run: |
           mkdir -p extracted_images
-          # تشغيل الأداة لاستخراج الصور إلى المجلد المخصص
-          carutil extract Assets.car --output-path ./extracted_images
+          ./carutil/target/release/carutil extract Assets.car --output-path ./extracted_images
 
-      - name: Zip Extracted Files
+      - name: Zip Files
         run: |
           zip -r images.zip extracted_images/
 
-      - name: Upload Result
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: my-extracted-images
