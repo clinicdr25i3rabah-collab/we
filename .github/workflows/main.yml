@@ -1,22 +1,33 @@
 name: Extract Assets.car
-on: [workflow_dispatch] # يتيح لك تشغيل السيرفر يدوياً بضغطة زر
+on: [workflow_dispatch]
 
 jobs:
   extract:
-    runs-on: macos-latest # هنا نطلب سيرفر ماك الحقيقي من جيت هاب
+    runs-on: macos-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Check if file exists
+        run: |
+          if [ ! -f "Assets.car" ]; then
+            echo "خطأ: لم يتم العثور على ملف Assets.car في جذر المستودع!"
+            exit 1
+          fi
+
+      - name: Install Extraction Tool
+        run: |
+          # تحميل أداة مخصصة لاستخراج الصور الفعلية وتنصيبها في السيرفر
+          git clone https://github.com
+          cd carutil
+          cargo build --release
+          echo "$(pwd)/target/release" >> $GITHUB_PATH
+
       - name: Extract Images
         run: |
-          mkdir extracted_images
-          # استخدام أداة آبل الرسمية المدمجة في نظام الماك لفك الملف
-          assetutil --info Assets.car > info.json
-          
-          # ملاحظة: إذا كانت الأداة الرسمية لا تكفي، السيرفر يمتلك سطر أوامر ماك بالكامل
-          # سنستخدم هنا أداة python مدمجة أو سكريبت لتنظيم المخرجات
-          cp Assets.car extracted_images/
+          mkdir -p extracted_images
+          # تشغيل الأداة لاستخراج الصور إلى المجلد المخصص
+          carutil extract Assets.car --output-path ./extracted_images
 
       - name: Zip Extracted Files
         run: |
