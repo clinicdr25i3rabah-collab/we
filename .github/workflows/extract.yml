@@ -5,14 +5,15 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install acextract
+      - name: Build acextract
         run: |
-          brew tap canhth/acextract
-          brew install acextract
+          git clone --recursive https://github.com/bartoszj/acextract.git
+          cd acextract
+          xcodebuild -project acextract.xcodeproj -scheme acextract -configuration Release CONFIGURATION_BUILD_DIR=build
       - name: Extract images
         run: |
           mkdir output
-          acextract -i Assets.car -o output
+          ./acextract/build/acextract -i Assets.car -o output
       - name: Upload result
         uses: actions/upload-artifact@v4
         with:
