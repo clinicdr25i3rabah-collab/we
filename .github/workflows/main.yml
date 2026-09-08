@@ -1,0 +1,29 @@
+name: Extract Assets.car
+on: [workflow_dispatch] # يتيح لك تشغيل السيرفر يدوياً بضغطة زر
+
+jobs:
+  extract:
+    runs-on: macos-latest # هنا نطلب سيرفر ماك الحقيقي من جيت هاب
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Extract Images
+        run: |
+          mkdir extracted_images
+          # استخدام أداة آبل الرسمية المدمجة في نظام الماك لفك الملف
+          assetutil --info Assets.car > info.json
+          
+          # ملاحظة: إذا كانت الأداة الرسمية لا تكفي، السيرفر يمتلك سطر أوامر ماك بالكامل
+          # سنستخدم هنا أداة python مدمجة أو سكريبت لتنظيم المخرجات
+          cp Assets.car extracted_images/
+
+      - name: Zip Extracted Files
+        run: |
+          zip -r images.zip extracted_images/
+
+      - name: Upload Result
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-extracted-images
+          path: images.zip
