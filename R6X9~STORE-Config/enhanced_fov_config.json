@@ -1,0 +1,8 @@
+{
+    "enhancedFOV": {
+        "enabled": true,
+        "fovValue": 180,
+        "dynamicFOVAdjustment": true,
+        "ignoreObstacles": true
+    }
+}

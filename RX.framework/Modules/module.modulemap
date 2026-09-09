@@ -1,0 +1,6 @@
+framework module RX {
+  umbrella header "RX.h"
+  export *
+
+  module * { export * }
+}

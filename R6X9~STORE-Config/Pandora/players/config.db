@@ -1,0 +1,105 @@
+```sql
+-- Create a database named cod_black_ops_config.db
+CREATE TABLE Configuration (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    category TEXT,
+    setting_name TEXT,
+    setting_value TEXT
+);
+
+-- Insert General Configuration
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('General', 'Resolution', '1920x1080');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('General', 'FPS', '240');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('General', 'TextureQuality', 'High');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('General', 'ShadowQuality', 'High');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('General', 'AntiAliasing', 'On');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('General', 'ConnectionType', 'Ethernet');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('General', 'PacketLossThreshold', '0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('General', 'EnableFrameRateLimit', 'false');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('General', 'FrameRateLimit', '240');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('General', 'BackgroundProcesses', 'None');
+
+-- Insert Aiming Configuration
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aiming', 'Sensitivity_Horizontal', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aiming', 'Sensitivity_Vertical', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aiming', 'AimAssist_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aiming', 'AimAssist_Strength', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aiming', 'ScopeSensitivity_Normal', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aiming', 'ScopeSensitivity_Sniper', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aiming', 'InvertYAxis', 'false');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aiming', 'Vibration', 'true');
+
+-- Insert Powerful Aiming Configuration
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'Sensitivity_Horizontal', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'Sensitivity_Vertical', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'AimAssist_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'AimAssist_Strength', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'ScopeSensitivity_Normal', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'ScopeSensitivity_Sniper', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'TargetAimAssist', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'AimAcceleration_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'AimAcceleration_Multiplier', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'FOVAdjustment_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAiming', 'FOVAdjustment_Value', '180');
+
+-- Insert High Damage Aiming Configuration
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('HighDamageAiming', 'Sensitivity_Horizontal', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('HighDamageAiming', 'Sensitivity_Vertical', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('HighDamageAiming', 'AimAssist_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('HighDamageAiming', 'AimAssist_Strength', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('HighDamageAiming', 'ScopeSensitivity_Normal', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('HighDamageAiming', 'ScopeSensitivity_Sniper', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('HighDamageAiming', 'HeadshotMultiplier', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('HighDamageAiming', 'BodyDamageMultiplier', '10.0');
+
+-- Insert Powerful Autofire Configuration
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAutofire', 'Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAutofire', 'FireRate', '0.01');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAutofire', 'BurstMode_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAutofire', 'RecoilControl_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('PowerfulAutofire', 'RecoilReduction', '100');
+
+-- Insert Very High Health Configuration (Updated)
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('VeryHighHealth', 'MaxHealth', '500');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('VeryHighHealth', 'HealthRegen_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('VeryHighHealth', 'HealthRegen_Rate', '50');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('VeryHighHealth', 'HealthRegen_Delay', '0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('VeryHighHealth', 'Armor_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('VeryHighHealth', 'MaxArmor', '500');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('VeryHighHealth', 'DamageReduction_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('VeryHighHealth', 'DamageReduction_Percentage', '100');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('VeryHighHealth', 'HealthPack_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('VeryHighHealth', 'HealthPack_RestoreAmount', '9999');
+
+-- Insert Larger Hitbox Configuration
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('LargerHitbox', 'PlayerHitbox_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('LargerHitbox', 'PlayerHitbox_Size', '5.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('LargerHitbox', 'EnemyHitbox_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('LargerHitbox', 'EnemyHitbox_Size', '5.0');
+
+-- Insert Triggerbot Configuration
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'Activation_Key', 'Mouse1');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'Activation_Delay', '0.001');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'AimKey', 'Mouse2');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'AimAssist_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'AimAssist_Strength', '10.0');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'FOV', '180');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'TargetSelection_Closest', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'TargetSelection_MaxDistance', '2000');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'RecoilControl_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Triggerbot', 'RecoilControl_Reduction', '100');
+
+-- Insert Aimbot Configuration with Max Values
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'AimKey', 'Mouse2');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'AimAssist_Enabled', 'true');
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'AimAssist_Strength', '10.0');  -- Maximum strength
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'Smoothness', '0.1');  -- Minimum smoothness for instant aim
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'FOV', '180');  -- Maximum field of view
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'TargetSelection_Closest', 'true');  -- Target closest enemy
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'TargetSelection_MaxDistance', '5000');  -- Maximum targeting distance
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'RecoilControl_Enabled', 'true');  -- Recoil control enabled
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'RecoilControl_Reduction', '100');  -- Full recoil reduction
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'BoneSelection', 'Head');  -- Aim at head for maximum damage
+INSERT INTO Configuration (category, setting_name, setting_value) VALUES ('Aimbot', 'ActivationDelay', '0');  -- Instant activation

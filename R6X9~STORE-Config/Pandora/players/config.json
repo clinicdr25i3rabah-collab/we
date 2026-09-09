@@ -1,0 +1,99 @@
+{
+    "General": {
+        "Resolution": "1920x1080",
+        "FPS": 240,
+        "TextureQuality": "High",
+        "ShadowQuality": "High",
+        "AntiAliasing": "On",
+        "ConnectionType": "Ethernet",
+        "PacketLossThreshold": 0,
+        "EnableFrameRateLimit": false,
+        "FrameRateLimit": 240,
+        "BackgroundProcesses": "None"
+    },
+    "Aiming": {
+        "Sensitivity_Horizontal": 10.0,
+        "Sensitivity_Vertical": 10.0,
+        "AimAssist_Enabled": true,
+        "AimAssist_Strength": 10.0,
+        "ScopeSensitivity_Normal": 10.0,
+        "ScopeSensitivity_Sniper": 10.0,
+        "InvertYAxis": false,
+        "Vibration": true
+    },
+    "PowerfulAiming": {
+        "Sensitivity_Horizontal": 10.0,
+        "Sensitivity_Vertical": 10.0,
+        "AimAssist_Enabled": true,
+        "AimAssist_Strength": 10.0,
+        "ScopeSensitivity_Normal": 10.0,
+        "ScopeSensitivity_Sniper": 10.0,
+        "TargetAimAssist": true,
+        "AimAcceleration_Enabled": true,
+        "AimAcceleration_Multiplier": 10.0,
+        "FOVAdjustment_Enabled": true,
+        "FOVAdjustment_Value": 180
+    },
+    "HighDamageAiming": {
+        "Sensitivity_Horizontal": 10.0,
+        "Sensitivity_Vertical": 10.0,
+        "AimAssist_Enabled": true,
+        "AimAssist_Strength": 10.0,
+        "ScopeSensitivity_Normal": 10.0,
+        "ScopeSensitivity_Sniper": 10.0,
+        "HeadshotMultiplier": 10.0,
+        "BodyDamageMultiplier": 10.0
+    },
+    "PowerfulAutofire": {
+        "Enabled": true,
+        "FireRate": 0.01,
+        "BurstMode_Enabled": true,
+        "RecoilControl_Enabled": true,
+        "RecoilReduction": 100
+    },
+    "VeryHighHealth": {
+        "MaxHealth": 500,
+        "HealthRegen_Enabled": true,
+        "HealthRegen_Rate": 50,
+        "HealthRegen_Delay": 0,
+        "Armor_Enabled": true,
+        "MaxArmor": 500,
+        "DamageReduction_Enabled": true,
+        "DamageReduction_Percentage": 100,
+        "HealthPack_Enabled": true,
+        "HealthPack_RestoreAmount": 9999
+    },
+    "LargerHitbox": {
+        "PlayerHitbox_Enabled": true,
+        "PlayerHitbox_Size": 5.0,
+        "EnemyHitbox_Enabled": true,
+        "EnemyHitbox_Size": 5.0
+    },
+    "Triggerbot": {
+        "Enabled": true,
+        "Activation_Key": "Mouse1",
+        "Activation_Delay": 0.001,
+        "AimKey": "Mouse2",
+        "AimAssist_Enabled": true,
+        "AimAssist_Strength": 10.0,
+        "FOV": 180,
+        "TargetSelection_Closest": true,
+        "TargetSelection_MaxDistance": 2000,
+        "RecoilControl_Enabled": true,
+        "RecoilControl_Reduction": 100
+    },
+    "Aimbot": {
+        "Enabled": true,
+        "AimKey": "Mouse2",
+        "AimAssist_Enabled": true,
+        "AimAssist_Strength": 10.0,
+        "Smoothness": 0.1,
+        "FOV": 180,
+        "TargetSelection_Closest": true,
+        "TargetSelection_MaxDistance": 5000,
+        "RecoilControl_Enabled": true,
+        "RecoilControl_Reduction": 100,
+        "BoneSelection": "Head",
+        "ActivationDelay": 0
+    }
+@end

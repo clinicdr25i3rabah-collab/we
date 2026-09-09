@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LunarTable LunarEngineTableVersion="34">
+  <LunarEntries>
+    <LunarEntry>
+      <ID>1</ID>
+      <Description>"Aimbot Enabled"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFA818"/>
+      <Color>008000</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA818</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>2</ID>
+      <Description>"Wallhack Enabled"</Description>
+      <LastState Value="1" RealAddress="7FF6CD2A8D9C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+5698D9C</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>3</ID>
+      <Description>"Speed Hack Multiplier"</Description>
+      <LastState Value="20" RealAddress="7FF6CD41045C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+580045C</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>4</ID>
+      <Description>"God Mode Enabled"</Description>
+      <LastState Value="1" RealAddress="7FF6CCE3B508"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+522B508</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>5</ID>
+      <Description>"Instant Heal"</Description>
+      <LastState Value="1" RealAddress="7FF6CCC734B4"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+50634B4</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>6</ID>
+      <Description>"Infinite Ammo"</Description>
+      <LastState Value="1" RealAddress="7FF6CCDCE148"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+51BE148</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>7</ID>
+      <Description>"High Health"</Description>
+      <LastState Value="9999" RealAddress="7FF6CCFFA764"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA764</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>8</ID>
+      <Description>"No Recoil"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF000"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA000</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>9</ID>
+      <Description>"Auto Reload"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF001"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA001</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>10</ID>
+      <Description>"Enhanced Vision"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF002"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA002</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>11</ID>
+      <Description>"Teleportation Enabled"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF003"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA003</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>12</ID>
+      <Description>"Bunny Hop Enabled"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF004"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA004</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>13</ID>
+      <Description>"Item Duplication Enabled"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF005"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA005</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>14</ID>
+      <Description>"Resource Manipulation Enabled"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF006"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA006</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>15</ID>
+      <Description>"No Fall Damage"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF007"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA007</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>16</ID>
+      <Description>"High Speed Multiplier"</Description>
+      <LastState Value="5" RealAddress="7FF6CCFFF008"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA008</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>17</ID>
+      <Description>"Enemy Damage Multiplier"</Description>
+      <LastState Value="0.5" RealAddress="7FF6CCFFF009"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA009</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>18</ID>
+      <Description>"Player Damage Multiplier"</Description>
+      <LastState Value="2" RealAddress="7FF6CCFFF00A"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA00A</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>19</ID>
+      <Description>"Instant Skill Cooldowns"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF00B"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA00B</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>20</ID>
+      <Description>"Unlimited Sprint"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF00C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA00C</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>21</ID>
+      <Description>"One Hit Kill"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF00D"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA00D</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>22</ID>
+      <Description>"Auto Headshot"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF00E"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA00E</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>23</ID>
+      <Description>"Enhanced Stealth"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF00F"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA00F</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>24</ID>
+      <Description>"High Critical Hit Chance"</Description>
+      <LastState Value="100" RealAddress="7FF6CCFFF010"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA010</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>25</ID>
+      <Description>"Fast Travel"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF011"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA011</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>26</ID>
+      <Description>"Super Sprint"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF012"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA012</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>27</ID>
+      <Description>"No Friendly Fire"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF013"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA013</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>28</ID>
+      <Description>"Instant Craft"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF014"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA014</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>29</ID>
+      <Description>"Enhanced Item Quality"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF015"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA015</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>30</ID>
+      <Description>"Unlimited Health Items"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF016"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA016</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>31</ID>
+      <Description>"Immunity to Status Effects"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF017"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA017</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>32</ID>
+      <Description>"Low Gravity"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF018"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA018</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>33</ID>
+      <Description>"Unlimited Ability Uses"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF019"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA019</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>34</ID>
+      <Description>"Enhanced Movement Speed"</Description>
+      <LastState Value="200" RealAddress="7FF6CCFFF01A"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA01A</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>35</ID>
+      <Description>"Max Inventory Size"</Description>
+      <LastState Value="999" RealAddress="7FF6CCFFF01B"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA01B</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>36</ID>
+      <Description>"Experience Multiplier"</Description>
+      <LastState Value="10" RealAddress="7FF6CCFFF01C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA01C</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>37</ID>
+      <Description>"Damage Absorption"</Description>
+      <LastState Value="75" RealAddress="7FF6CCFFF01D"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA01D</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>38</ID>
+      <Description>"Auto Loot"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF01E"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA01E</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>39</ID>
+      <Description>"High Luck"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF01F"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA01F</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>40</ID>
+      <Description>"Faster Skill Acquisition"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF020"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA020</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>41</ID>
+      <Description>"Instant Mission Completion"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF021"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA021</Address>
+    </LunarEntry>
+    <LunarEntry>
+      <ID>42</ID>
+      <Description>"Instant Access to Upgrades"</Description>
+      <LastState Value="1" RealAddress="7FF6CCFFF022"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>CallOfDutyMobile.apk+53EA022</Address>
+    </LunarEntry>
+  </LunarEntries>
+  <UserdefinedSymbols/>
+</LunarTable>

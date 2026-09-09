@@ -1,0 +1,110 @@
+### Complete Configuration File in XML Format
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <General>
+        <Setting name="Resolution" value="1920x1080"/>
+        <Setting name="FPS" value="240"/>
+        <Setting name="TextureQuality" value="High"/>
+        <Setting name="ShadowQuality" value="High"/>
+        <Setting name="AntiAliasing" value="On"/>
+        <Setting name="ConnectionType" value="Ethernet"/>
+        <Setting name="PacketLossThreshold" value="0"/>
+        <Setting name="EnableFrameRateLimit" value="false"/>
+        <Setting name="FrameRateLimit" value="240"/>
+        <Setting name="BackgroundProcesses" value="None"/>
+    </General>
+
+    <Aiming>
+        <Setting name="Sensitivity_Horizontal" value="10.0"/>
+        <Setting name="Sensitivity_Vertical" value="10.0"/>
+        <Setting name="AimAssist_Enabled" value="true"/>
+        <Setting name="AimAssist_Strength" value="10.0"/>
+        <Setting name="ScopeSensitivity_Normal" value="10.0"/>
+        <Setting name="ScopeSensitivity_Sniper" value="10.0"/>
+        <Setting name="InvertYAxis" value="false"/>
+        <Setting name="Vibration" value="true"/>
+    </Aiming>
+
+    <PowerfulAiming>
+        <Setting name="Sensitivity_Horizontal" value="10.0"/>
+        <Setting name="Sensitivity_Vertical" value="10.0"/>
+        <Setting name="AimAssist_Enabled" value="true"/>
+        <Setting name="AimAssist_Strength" value="10.0"/>
+        <Setting name="ScopeSensitivity_Normal" value="10.0"/>
+        <Setting name="ScopeSensitivity_Sniper" value="10.0"/>
+        <Setting name="TargetAimAssist" value="true"/>
+        <Setting name="AimAcceleration_Enabled" value="true"/>
+        <Setting name="AimAcceleration_Multiplier" value="10.0"/>
+        <Setting name="FOVAdjustment_Enabled" value="true"/>
+        <Setting name="FOVAdjustment_Value" value="180"/>
+    </PowerfulAiming>
+
+    <HighDamageAiming>
+        <Setting name="Sensitivity_Horizontal" value="10.0"/>
+        <Setting name="Sensitivity_Vertical" value="10.0"/>
+        <Setting name="AimAssist_Enabled" value="true"/>
+        <Setting name="AimAssist_Strength" value="10.0"/>
+        <Setting name="ScopeSensitivity_Normal" value="10.0"/>
+        <Setting name="ScopeSensitivity_Sniper" value="10.0"/>
+        <Setting name="HeadshotMultiplier" value="10.0"/>
+        <Setting name="BodyDamageMultiplier" value="10.0"/>
+    </HighDamageAiming>
+
+    <PowerfulAutofire>
+        <Setting name="Enabled" value="true"/>
+        <Setting name="FireRate" value="0.01"/>
+        <Setting name="BurstMode_Enabled" value="true"/>
+        <Setting name="RecoilControl_Enabled" value="true"/>
+        <Setting name="RecoilReduction" value="100"/>
+    </PowerfulAutofire>
+
+    <VeryHighHealth>
+        <Setting name="MaxHealth" value="500"/>
+        <Setting name="HealthRegen_Enabled" value="true"/>
+        <Setting name="HealthRegen_Rate" value="50"/>
+        <Setting name="HealthRegen_Delay" value="0"/>
+        <Setting name="Armor_Enabled" value="true"/>
+        <Setting name="MaxArmor" value="500"/>
+        <Setting name="DamageReduction_Enabled" value="true"/>
+        <Setting name="DamageReduction_Percentage" value="100"/>
+        <Setting name="HealthPack_Enabled" value="true"/>
+        <Setting name="HealthPack_RestoreAmount" value="9999"/>
+    </VeryHighHealth>
+
+    <LargerHitbox>
+        <Setting name="PlayerHitbox_Enabled" value="true"/>
+        <Setting name="PlayerHitbox_Size" value="5.0"/>
+        <Setting name="EnemyHitbox_Enabled" value="true"/>
+        <Setting name="EnemyHitbox_Size" value="5.0"/>
+    </LargerHitbox>
+
+    <Triggerbot>
+        <Setting name="Enabled" value="true"/>
+        <Setting name="Activation_Key" value="Mouse1"/>
+        <Setting name="Activation_Delay" value="0.001"/>
+        <Setting name="AimKey" value="Mouse2"/>
+        <Setting name="AimAssist_Enabled" value="true"/>
+        <Setting name="AimAssist_Strength" value="10.0"/>
+        <Setting name="FOV" value="180"/>
+        <Setting name="TargetSelection_Closest" value="true"/>
+        <Setting name="TargetSelection_MaxDistance" value="2000"/>
+        <Setting name="RecoilControl_Enabled" value="true"/>
+        <Setting name="RecoilControl_Reduction" value="100"/>
+    </Triggerbot>
+
+    <Aimbot>
+        <Setting name="Enabled" value="true"/>
+        <Setting name="AimKey" value="Mouse2"/>
+        <Setting name="AimAssist_Enabled" value="true"/>
+        <Setting name="AimAssist_Strength" value="10.0"/>
+        <Setting name="Smoothness" value="0.1"/>
+        <Setting name="FOV" value="180"/>
+        <Setting name="TargetSelection_Closest" value="true"/>
+        <Setting name="TargetSelection_MaxDistance" value="5000"/>
+        <Setting name="RecoilControl_Enabled" value="true"/>
+        <Setting name="RecoilControl_Reduction" value="100"/>
+        <Setting name="BoneSelection" value="Head"/>
+        <Setting name="ActivationDelay" value="0"/>
+    </Aimbot>
+</Configuration>
